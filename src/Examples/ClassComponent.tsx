@@ -91,7 +91,8 @@ class ClassComponentExample extends React.Component<ClassComponentExampleArgumen
   render() {
     return (
       <div>
-        <h1>Hello, {this.props.name}. You clicked {this.state.clickCount} times.</h1>
+        <h1>Class component</h1>
+        <p>Hello, {this.props.name}. You clicked {this.state.clickCount} times.</p>
         <button onClick={() => this.incrementClickCount()}>Click</button>
         <button onClick={() => this.resetCount()}>Reset click count </button>
       </div>
